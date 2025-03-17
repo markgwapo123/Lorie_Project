@@ -1,0 +1,89 @@
+body{
+    background-image: url(/img/lab.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:center;
+}
+
+.title{
+    color:white;
+    font-weight: bolder;
+    font-size: xx-large;
+    font-family:verdana;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    -webkit-transform: translate(-50% , -50%);
+    -moz-transform: translate(-50% , -50%);
+    -ms-transform: translate(-50% , -50%);
+    -o-transform: translate(-50% , -50%);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.loginform{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    -webkit-transform: translate(-50% , -50%);
+    -moz-transform: translate(-50% , -50%);
+    -ms-transform: translate(-50% , -50%);
+    -o-transform: translate(-50% , -50%);
+    background-color: transparent;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px azure inset;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    
+}
+button{
+    position: relative;
+    top: 0%;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0%);
+    -moz-transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%);
+    -o-transform: translate(-50%, 0%);
+    padding: 6px;
+    width: 180px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: #007bff;
+    color: wheat;
+}
+
+button:hover{
+   background-color: #62a7f1;
+   font-size: 15px
+   
+}
+
+
+input{
+    position: relative;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    padding:5px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+#tit{
+    color: aliceblue;
+    font-family: verdana;
+}
+

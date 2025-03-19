@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <title>Document</title>
+    <title>Computer Management System</title>
 </head>
 <body>
     
@@ -13,23 +13,21 @@
     </div>
 
     <div class="loginform">
-
-        <form action="">
+        <form action="../backend/login.php" method="POST">
             <h3 id="tit">Please enter your Credentials</h3>
-            <label for="uname"></label><br>
-            <input type="text" placeholder="Username"><br>
+            <label for="username" id="mail">Email</label><br>
+            <input type="text" name="email" placeholder="name@example.com" required><br><br>
             
-            <label for="uname"></label><br>
-            <input type="text" placeholder="Password" > <br> <br>
+            <label for="password" id="pass">Password</label><br>
+            <input type="password" name="password"  required> <br> <br>
 
             <div class="sublog">
-                <button >Login</button>
-            </div>
-     
+                <button type="submit">Login</button>
+            </div>  
         </form>
-            
+        <p id="registerhere">Don't have an account? <a href="register.html" id="links">Register here</a></p>
     </div>
 
-
+   
 </body>
 </html>

@@ -1,5 +1,5 @@
 body{
-    background-image: url(/img/lab.png);
+    background-image: url(../img/lab.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -12,7 +12,7 @@ body{
     font-size: xx-large;
     font-family:verdana;
     position: absolute;
-    top: 20%;
+    top: 15%;
     left: 50%;
     transform: translate(-50% , -50%);
     -webkit-transform: translate(-50% , -50%);
@@ -52,22 +52,25 @@ button{
     -moz-transform: translate(-50%, 0%);
     -ms-transform: translate(-50%, 0%);
     -o-transform: translate(-50%, 0%);
-    padding: 6px;
-    width: 180px;
     border-radius: 5px;
     outline: none;
-    border: none;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
     background-color: #007bff;
-    color: wheat;
+    color: white;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    width: 60%;
 }
 
 button:hover{
    background-color: #62a7f1;
-   font-size: 15px
+   font-size: 15px;
+   box-shadow: 0px 0px 10px rgb(1, 90, 255);
    
 }
 
@@ -77,15 +80,48 @@ input{
     top: 0%;
     left: 50%;
     transform: translate(-50%, 0%);
-    padding:5px;
+    padding:8px;
     outline: none;
-    border: none;
-    border-radius: 5px;
+    border-radius: 15px;
+    background-color: transparent;
+    border-color: aliceblue;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    color: white;
+    box-shadow: 0px 0px 10px rgba(241, 240, 240,0.5)inset;
 }
 #tit{
     color: aliceblue;
     font-family: verdana;
+    
+}
+#registerhere{
+    color: antiquewhite;
+    text-align: center;
+    font-style: italic;
 }
 
+a {
+   
+    color: rgb(17, 4, 202);
+    text-decoration: none;
 
+    
+}
+a:hover{
+    color: rgb(6, 139, 255);
+    text-decoration: underline;
+}
 
+#mail,#pass{
+    color: rgb(240, 235, 229);
+    position: relative;
+    left: 22%;
+    font-family: verdana;
+}
+input::placeholder {
+    color: #888;
+    font-style: italic;
+}
